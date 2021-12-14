@@ -1,0 +1,28 @@
+first i need to check if every letter is mentioned once no more
+even if upper case or lower case
+بين الحرف الكابيتال والاسمو 32
+keylen = 12 ; ahmedmohamed
+for (int i = 0; i < keylen; i++)
+{
+    char c  = "";
+    for (int x =1 ; x < keylen ; x++)
+    {
+        if (str[i] == str[x+i] || str[i] + 32 == str[x+i] || str[i] - 32 == str[x+i])
+        {
+            print("this is the letter %s and this is the repeated letter %s", str[i] , str[i+x]);
+            c = str[i];
+            return c;
+            break;
+        }
+    }
+}
+P
+VCHPRZGJNTLSKFBDQWAXEUYMOI
+==============================================
+if (islower(plaintext[i]) != 0)
+            {
+                printf("lower %c", plaintext[i]);
+                char small = 'a'
+                int alphastart = (int) small; //97
+                index = (int) plaintext[i] - alpahstart;
+            }else if (isupper())
